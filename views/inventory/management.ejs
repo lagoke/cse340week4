@@ -1,0 +1,23 @@
+<% if (title) { %>
+    <h1><%= title %></h1>
+    <% } else {
+      res.redirect('/')
+    } %>
+
+    <%- messages() %>
+
+    <%# grid %>
+
+    <br />
+
+    <div>
+    <a href ="/inv/newclassification"> Add New Classification </a> 
+</div>
+<br />  
+<div>
+
+    <a href ="/inv/newinventory"> Add New Inventory </a>
+
+    </div>
+
+    <br />   <br />  <br />
